@@ -1,0 +1,50 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Simulate Android in browser",
+			"type": "cordova",
+			"request": "launch",
+			"platform": "android",
+			"target": "chrome",
+			"simulatePort": 8000,
+			"livereload": true,
+			"cwd": "${workspaceFolder}",
+			"sourceMaps": true
+		},
+		{
+			"name": "Debug on Browser",
+			"type": "cordova",
+			"request": "launch",
+			"platform": "browser",
+			"target": "edge",
+			"simulatePort": 8000,
+			"livereload": true,
+			"cwd": "${workspaceFolder}",
+			"sourceMaps": true
+		},
+		{
+			"name": "Attach to running Android on device",
+			"type": "cordova",
+			"request": "attach",
+			"platform": "android",
+			"target": "device",
+			"sourceMaps": true,
+			"cwd": "${workspaceFolder}",
+			"trace": true
+		},
+		{
+			"name": "Debug Android on device",
+			"type": "cordova",
+			"request": "launch",
+			"platform": "android",
+			"target": "device",
+			"sourceMaps": true,
+			"cwd": "${workspaceFolder}",
+			"trace": true
+		}
+	]
+}
