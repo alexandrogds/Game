@@ -1,6 +1,6 @@
 {
   "name": "com.alex.thegame",
-  "displayName": "TheGame",
+  "displayName": "The Game",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -14,12 +14,14 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^13.0.0",
+    "cordova-browser": "^7.0.0",
     "cordova-plugin-screen-orientation": "^3.0.4",
     "es6-promise-plugin": "^4.2.2"
   },
   "cordova": {
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ],
     "plugins": {
       "cordova-plugin-screen-orientation": {}
