@@ -14,5 +14,9 @@ Used Cordova.
 ## Minor description
 Colete 5 maçãs, abra um portal misterioso e descubra desafios incríveis!
 
+Collect 5 apples and a portal will open.
+
 ## Description
 Embarque em uma jornada mágica onde cada clique em uma maçã aumenta seu contador. Colete cinco maçãs e abra um portal misterioso para descobrir novas aventuras e desafios. Teste seus reflexos e habilidades neste jogo viciante e divertido!
+
+Each click on an apple increases its counter. Collect five apples and a portal will open.
